@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Exercices events</title>
+</head>
+<body>
+    <h1>Pizzerai Di Italia</h1>
+    <div>
+        <input type="number" name="somme" id="inputSomme" value="0">
+    </div>
+    <h2>Menu</h2>
+    <div>
+        <h3>Pizza</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Pizza</th>
+                    <th>Prix</th>
+                    <th>Qté</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Margherita</td>
+                    <td>10</td>
+                    <td><input id="margarita" type="number" name="margherita" min="0"></td>
+                </tr>
+                <tr>
+                    <td>Hawaii</td>
+                    <td>12</td>
+                    <td><input type="number" name="hawaii" min="0"></td>
+                </tr>
+                <tr>
+                    <td>Calzone</td>
+                    <td>13</td>
+                    <td><input type="number" name="calzone" min="0"></td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">
+                        <button class="submit-btn">Submit</button>
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <div>
+        <h3 >Pâtes</h3>
+        <ul id="liste_pates">
+            <li>Carbonara</li>
+            <li>Pesto</li>
+            <li>Bolognese</li>
+        </ul>
+    </div>
+</body>
+</html>
