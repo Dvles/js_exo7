@@ -1,4 +1,2 @@
 # js_exo7
-AUSSI UNE MODIF SUR LE MM FICHER
-ET DEUXIEME LIGNE PR ETRE SUR
-MM3eme
+update doc from merge conflit incomming
